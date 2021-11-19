@@ -1,0 +1,9 @@
+.photos li {
+  display: flex;
+  flex-direction: column;
+}
+
+.photos img {
+  height: 220px;
+  width: 220px;
+}

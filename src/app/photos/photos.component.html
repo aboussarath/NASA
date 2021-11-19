@@ -1,0 +1,10 @@
+<h2>Photos</h2>
+<ul class='photos'>
+  <li *ngFor='let photo of photos'>
+    <span>Id: {{photo.id}}</span>
+    <span>Rover: {{photo.rover}}</span>
+    <span>Camera: {{photo.camera}}</span>
+    <!-- <img [alt]='photo.id' [src]='photo.img_src'> -->
+    <app-photo-image></app-photo-image>
+  </li>
+</ul>
